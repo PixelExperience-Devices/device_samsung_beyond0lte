@@ -16,13 +16,14 @@ $(call inherit-product, device/samsung/beyond0lte/device.mk)
 ## Inherit some common build stuff
 $(call inherit-product, vendor/aosp/config/common_full_phone.mk)
 
-## Boot Animation
+## Flags
 TARGET_BOOTANIMATION_HALF_RES := true
 TARGET_SCREEN_HEIGHT := 2280
 TARGET_SCREEN_WIDTH := 1080
 TARGET_BOOT_ANIMATION_RES := 1080
 TARGET_FACE_UNLOCK_SUPPORTED := true
 TARGET_SUPPORTS_QUICK_TAP := true
+TARGET_USES_AOSP_RECOVERY := true
 
 ## Device identifier, this must come after all inclusions
 PRODUCT_NAME := aosp_beyond0lte
