@@ -65,4 +65,7 @@
         <item>265</item> <!--item>sensorLocationY</item-->
         <item>250</item> <!--item>sensorRadius</item-->
     </array>
+
+     <bool name="config_supportsGesturesOnFingerprintSensor">true</bool>
+     <integer name="config_deviceHardwareKeys">68</integer>
 </resources>
